@@ -1,12 +1,13 @@
 type TimeComponentProps = {
   value: number;
   units: string;
+  width?: number;
 }
 
-function TimeComponent({ value, units}  : TimeComponentProps) {
+function TimeComponent({ value, units, width=2 }  : TimeComponentProps) {
   return (
-    <div>
-      {String(value).padStart(2, '0')}
+    <div className="number">
+      {String(value).padStart(width, '0')}
       <div className="caption">{units}</div>
     </div>
   )
