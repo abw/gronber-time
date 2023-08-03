@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import TimeComponent from './TimeComponent';
 import GronberTime from './GronberTime';
 import { useTheme, Toggle } from '@abw/react-night-and-day';
-// import { ReactComponent as Abw } from './assets/abw.svg'
 import { ReactComponent as Github } from './assets/github.svg'
 
 function App() {
@@ -35,13 +34,13 @@ function App() {
         </div>
         <h1>Gronber Time</h1>
         <div className="time">
-          <TimeComponent value={time.quadrant} units="Quadrant" width={1}/>
+          <TimeComponent value={time.quadrant} units="Quadrants" width={1}/>
           <div className="spacer">:</div>
-          <TimeComponent value={time.blurg} units="Blurg" width={1}/>
+          <TimeComponent value={time.blurg} units="Blurgs" width={1}/>
           <div className="spacer">:</div>
-          <TimeComponent value={time.gronber} units="Gronber" width={1}/>
+          <TimeComponent value={time.gronber} units="Gronbers" width={1}/>
           <div className="spacer">:</div>
-          <TimeComponent value={time.nibblum} units="Nibblum" width={3}/>
+          <TimeComponent value={time.nibblum} units="Nibblums" width={3}/>
           <div className="spacer">.</div>
           <div>{time.partum}</div>
         </div>

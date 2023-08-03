@@ -12,7 +12,6 @@ export function GronberTime() {
   const gseconds = gremain * 60 + seconds;
   const nibblum  = Math.floor(gseconds / 4);
   const partum   = gseconds % 4;
-  // const seconds  = now.getSeconds() + 60 * remain2;
   return {
     hours, minutes, seconds,
     quadrant, blurg, gronber, nibblum, partum

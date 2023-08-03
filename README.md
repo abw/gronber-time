@@ -28,8 +28,8 @@ is split into 120 nibblums at 4 seconds each.
 ```
 
 It turns out to be quite tiresome trying to convert the current time to
-Gronber time on paper.  So I some code to do it for me and created this
-website to display the current time in Gronber time.
+Gronber time on paper.  So I wrote some code to do it for me and created
+a website to display the current time in Gronber time.
 
 ## Installation
 
