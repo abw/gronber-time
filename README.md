@@ -33,16 +33,19 @@ website to display the current time in Gronber time.
 
 ## Installation
 
-You'll need to have [git](https://git-scm.com/) installed to clone the
-repository and [Node.js](https://nodejs.org/) to run or build it.
+If you want to play with the code then you'll need to have
+[git](https://git-scm.com/) installed to clone the repository and
+[Node.js](https://nodejs.org/) to run the website or build it for
+production.
 
-These example use `npm` (provided with Node.js) but you can use
+These examples use `npm` (provided with Node.js) but you can use
 [pnpm](https://pnpm.io/) or [yarn](https://yarnpkg.com/) if you prefer.
 
-Check out the repository.
+First check out the repository.
 
 ```
 $ git clone https://github.com/abw/gronber-time.git
+$ cd gronber-time
 ```
 
 Install the dependencies.
